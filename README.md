@@ -29,3 +29,6 @@ Okay, there are two other methods you can call:
     FirebaseRollingLog.setSize(100000);
 ```
 
+## Changelog
+* 0.0.0 (2015-07-01) - Initial release.
+* 0.1.0 (2015-07-01) - Added timestamps to log messages.

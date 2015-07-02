@@ -28,7 +28,7 @@ var FirebaseRollingLog = (function() {
   setSize(DEFAULT_SIZE);
 
   Firebase.enableLogging(function (msg) {
-    buffer[pos] = msg;
+    buffer[pos] = new Date().toISOString() + ': ' + msg;
     pos = (pos + 1) % buffer.length;
     size = Math.min(size + 1, buffer.length);
   });

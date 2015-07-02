@@ -1,6 +1,6 @@
 {
   "name": "firebase-rolling-log",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Captures a rolling Firebase log.",
   "main": "index.js",
   "scripts": {
